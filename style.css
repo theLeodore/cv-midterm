@@ -2,6 +2,11 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
 canvas {
   display: block;
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover;
 }
